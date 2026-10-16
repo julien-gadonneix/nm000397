@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Executed and imagined grasp forces recorded with stereo-EEG (Murphy et al., 2016): 4 participants, power and pinch force-matching",
-  "description": "Stereo-EEG recordings from four adults with drug-resistant epilepsy performing force-matching tasks with a power grasp and a lateral pinch. Two participants also completed blocks in which they only imagined producing the force. Each block contained five trials at each of three force targets (20, 30 and 40% of maximum voluntary contraction). The data support investigation of how subsurface cortical modulations, including central sulcus and insular cortex, discriminate executed and imagined grasp forces.",
-  "methods_description": "SEEG was recorded at 2000 Hz with a Blackrock Neuroport amplifier from depth electrodes, together with an analog dynamometer force signal. Participants matched force targets shown for 5 s, followed by 5 s of rest. Original NSx int16 samples were converted unchanged to BrainVision format, and events were derived from the Simulink task log. Electrode contacts were localised in the source study with CT-to-MRI coregistration, but those localisation data are not released.",
+  "description": "Stereo-EEG recordings from four adults with drug-resistant epilepsy performing force-matching tasks with a power grasp and a lateral pinch. Two participants also completed blocks in which they only imagined producing the force. Each block contained trials at three force targets (20, 30 and 40% of maximum voluntary contraction). The data are intended for studying how subsurface cortical modulations, including those in motor and insular cortex, discriminate executed and imagined grasp forces.",
+  "methods_description": "Stereo-EEG was recorded at 2000 Hz with a Neuroport amplifier from depth electrodes, alongside an analog dynamometer force signal. Participants matched force targets shown for 5 s, followed by 5 s of rest. Original Blackrock NSx files were converted losslessly to BrainVision format, and target periods from the Simulink log were written to events.tsv.",
   "license": "CC0-1.0",
   "dataset_type": "raw",
   "authors": {
@@ -32,9 +32,9 @@
       "term": "insular cortex"
     },
     {
-      "term": "Epilepsy",
+      "term": "Electroencephalography",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
