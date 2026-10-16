@@ -1,5 +1,5 @@
 {
-  "Name": "Murphy-2016-contributions-10.1371/journal.pone.0150359",
+  "Name": "Executed and imagined grasp forces recorded with stereo-EEG (Murphy et al., 2016): 4 participants, power and pinch force-matching",
   "BIDSVersion": "1.10.0",
   "DatasetType": "raw",
   "License": "CC0-1.0",
@@ -45,5 +45,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000397",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
