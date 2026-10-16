@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Murphy-2016-contributions-10.1371/journal.pone.0150359",
+  "title": "Executed and imagined grasp forces recorded with stereo-EEG (Murphy et al., 2016): 4 participants, power and pinch force-matching",
   "description": "Stereo-EEG recordings from four adults with drug-resistant epilepsy performing force-matching tasks with a power grasp and a lateral pinch. Two participants also completed blocks in which they only imagined producing the force. Each block contained five trials at each of three force targets (20, 30 and 40% of maximum voluntary contraction). The data support investigation of how subsurface cortical modulations, including central sulcus and insular cortex, discriminate executed and imagined grasp forces.",
   "methods_description": "SEEG was recorded at 2000 Hz with a Blackrock Neuroport amplifier from depth electrodes, together with an analog dynamometer force signal. Participants matched force targets shown for 5 s, followed by 5 s of rest. Original NSx int16 samples were converted unchanged to BrainVision format, and events were derived from the Simulink task log. Electrode contacts were localised in the source study with CT-to-MRI coregistration, but those localisation data are not released.",
   "license": "CC0-1.0",
@@ -92,5 +92,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "8ec016abcc5b7c8316cdfd3c572774e70670cf80dd6d22ead5d1a9a15f2b831b"
+  "source_hash": "7d07a8ba8ec1505743839edfd7ee5d1517b4629d94f2459a9995983a3294fbc4"
 }
